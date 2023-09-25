@@ -11,7 +11,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
                             <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Our team of instructors brings a wealth of expertise and years of experience to provide you with the best learning experience possible. They are dedicated to helping you succeed in your journey and are passionate about sharing their knowledge with you.</p>
                         </div>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
                             <h5 class="mb-3">Online Classes</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Experience seamless and flexible learning from the comfort of your own space. Our online classes are designed to accommodate your schedule and provide you with an immersive educational experience without the need to commute or be in a physical classroom.</p>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-home text-primary mb-4"></i>
                             <h5 class="mb-3">Home Projects</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Discover the joy of hands-on learning with our home projects. These creative assignments are designed to stimulate your skills and imagination, allowing you to apply what you've learned in a practical and meaningful way. Dive into exciting projects that will not only enhance your knowledge but also bring a sense of accomplishment.</p>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
                         <div class="p-4">
                             <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
                             <h5 class="mb-3">Book Library</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <p>Explore a treasure trove of knowledge at our book library. Immerse yourself in a world of literature and information, where you can access a wide range of books on various topics. Whether you're seeking inspiration, research materials, or simply a good read, our library has something for everyone.</p>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,8 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    @include('common.about')
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
@@ -92,7 +93,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- About End -->
 
 
@@ -157,7 +158,7 @@
 
     <!-- Courses Start -->
     <div class="container-xxl py-5">
-        <div class="container">
+        <div class="container"> 
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
                 <h1 class="mb-5">Popular Courses</h1>
@@ -175,7 +176,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
+                            <h3 class="mb-0">Rs. 149.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -188,7 +189,7 @@
                         </div>
                         <div class="d-flex border-top">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                    class="fa fa-user-tie text-primary me-2"></i>Gunjan Mam</small>
                             <small class="flex-fill text-center border-end py-2"><i
                                     class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
@@ -208,7 +209,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
+                            <h3 class="mb-0">Rs. 149.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -221,7 +222,7 @@
                         </div>
                         <div class="d-flex border-top">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                    class="fa fa-user-tie text-primary me-2"></i>Gunjan Mam</small>
                             <small class="flex-fill text-center border-end py-2"><i
                                     class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
@@ -241,7 +242,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
+                            <h3 class="mb-0">Rs. 149.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
@@ -254,7 +255,7 @@
                         </div>
                         <div class="d-flex border-top">
                             <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                                    class="fa fa-user-tie text-primary me-2"></i>Gunjan Mam</small>
                             <small class="flex-fill text-center border-end py-2"><i
                                     class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
